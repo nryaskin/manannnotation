@@ -9,6 +9,9 @@ import annotation.ComponentA;
 @ComponentA
 public class HelloWorld1 {
     PrintService printService;
+    public HelloWorld1(){
+
+    }
 
     @Autowired
     public HelloWorld1(PrintService printSrevice){
